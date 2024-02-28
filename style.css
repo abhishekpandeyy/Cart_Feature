@@ -1,0 +1,33 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'gilroy';
+}
+
+html, body {
+     height: 100%;
+     width: 100%;
+}
+
+.container {
+    /* height: 100%; */
+    width: 100%;
+    background-color: red;
+    display: block;
+   padding: 10vh;
+    
+}
+.products{
+    display: inline-block;
+    /* background-color: rebeccapurple; */
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+img{
+    width: 410px;
+    height: 300px;
+    object-fit: contain;
+    /* transform: translateX(10%); */
+}
